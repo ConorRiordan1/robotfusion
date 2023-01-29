@@ -1,0 +1,247 @@
+[0.010s] Invoking command in '/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/build/groot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot -DCMAKE_INSTALL_PREFIX=/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/install/groot
+[0.044s] -- The C compiler identification is GNU 9.4.0
+[0.079s] -- The CXX compiler identification is GNU 9.4.0
+[0.082s] -- Check for working C compiler: /usr/bin/cc
+[0.126s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.126s] -- Detecting C compiler ABI info
+[0.169s] -- Detecting C compiler ABI info - done
+[0.178s] -- Detecting C compile features
+[0.178s] -- Detecting C compile features - done
+[0.180s] -- Check for working CXX compiler: /usr/bin/c++
+[0.230s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.231s] -- Detecting CXX compiler ABI info
+[0.281s] -- Detecting CXX compiler ABI info - done
+[0.290s] -- Detecting CXX compile features
+[0.290s] -- Detecting CXX compile features - done
+[0.317s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.317s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.470s] -- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)
+[0.473s] -- Found behaviortree_cpp_v3: 3.6.1 (/opt/ros/foxy/share/behaviortree_cpp_v3/cmake)
+[0.474s] -- ------------------------------------------------
+[0.474s] -- BehaviourTreeEditor is being built using AMENT.
+[0.474s] -- ------------------------------------------------
+[0.487s] -- Found ZMQ: /usr/lib/x86_64-linux-gnu/libzmq.so  
+[0.487s] -- ZeroMQ found.
+[0.538s] -- Configuring done
+[0.624s] -- Generating done
+[0.625s] -- Build files have been written to: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/build/groot
+[0.630s] Invoked command in '/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/build/groot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot -DCMAKE_INSTALL_PREFIX=/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/install/groot
+[0.632s] Invoking command in '/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/build/groot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/build/groot -- -j12 -l12
+[0.660s] [35m[1mScanning dependencies of target QtNodeEditor_autogen[0m
+[0.667s] [  1%] [34m[1mAutomatic MOC and UIC for target QtNodeEditor[0m
+[0.686s] [  1%] Built target QtNodeEditor_autogen
+[0.697s] [  1%] [34m[1mGenerating qrc_resources.cpp[0m
+[0.697s] [  2%] [34m[1mGenerating include/nodes/internal/moc_memory.cpp[0m
+[0.698s] [  3%] [34m[1mGenerating include/nodes/internal/moc_Compiler.cpp[0m
+[0.698s] [  6%] [34m[1mGenerating include/nodes/internal/moc_ConnectionState.cpp[0m
+[0.698s] [  6%] [34m[1mGenerating include/nodes/internal/moc_ConnectionGeometry.cpp[0m
+[0.698s] [  6%] [34m[1mGenerating include/nodes/internal/moc_Connection.cpp[0m
+[0.698s] [  6%] [34m[1mGenerating include/nodes/internal/moc_ConnectionGraphicsObject.cpp[0m
+[0.700s] [  7%] [34m[1mGenerating include/nodes/internal/moc_ConnectionStyle.cpp[0m
+[0.700s] [  7%] [34m[1mGenerating include/nodes/internal/moc_DataModelRegistry.cpp[0m
+[0.700s] [  8%] [34m[1mGenerating include/nodes/internal/moc_Export.cpp[0m
+[0.701s] [  9%] [34m[1mGenerating include/nodes/internal/moc_FlowScene.cpp[0m
+[0.701s] [ 10%] [34m[1mGenerating include/nodes/internal/moc_FlowView.cpp[0m
+[0.720s] [ 12%] [34m[1mGenerating include/nodes/internal/moc_FlowViewStyle.cpp[0m
+[0.720s] [ 12%] [34m[1mGenerating include/nodes/internal/moc_NodeDataModel.cpp[0m
+[0.720s] [ 12%] [34m[1mGenerating include/nodes/internal/moc_Node.cpp[0m
+[0.720s] [ 12%] [34m[1mGenerating include/nodes/internal/moc_NodeData.cpp[0m
+[0.729s] [ 13%] [34m[1mGenerating include/nodes/internal/moc_NodeGeometry.cpp[0m
+[0.731s] [ 14%] [34m[1mGenerating include/nodes/internal/moc_NodeGraphicsObject.cpp[0m
+[0.734s] [ 15%] [34m[1mGenerating include/nodes/internal/moc_NodePainterDelegate.cpp[0m
+[0.748s] [ 15%] [34m[1mGenerating include/nodes/internal/moc_NodeState.cpp[0m
+[0.749s] [ 16%] [34m[1mGenerating include/nodes/internal/moc_NodeStyle.cpp[0m
+[0.756s] [ 17%] [34m[1mGenerating include/nodes/internal/moc_PortType.cpp[0m
+[0.756s] [ 17%] [34m[1mGenerating include/nodes/internal/moc_OperatingSystem.cpp[0m
+[0.770s] [ 18%] [34m[1mGenerating include/nodes/internal/moc_QStringStdHash.cpp[0m
+[0.773s] [ 19%] [34m[1mGenerating include/nodes/internal/moc_QUuidStdHash.cpp[0m
+[0.776s] [ 20%] [34m[1mGenerating include/nodes/internal/moc_Serializable.cpp[0m
+[0.777s] [ 20%] [34m[1mGenerating include/nodes/internal/moc_Style.cpp[0m
+[0.778s] [ 21%] [34m[1mGenerating include/nodes/internal/moc_TypeConverter.cpp[0m
+[0.803s] [35m[1mScanning dependencies of target QtNodeEditor[0m
+[0.894s] [ 21%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/QtNodeEditor_autogen/mocs_compilation.cpp.o[0m
+[0.898s] [ 22%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/ConnectionBlurEffect.cpp.o[0m
+[0.900s] [ 25%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/ConnectionPainter.cpp.o[0m
+[0.900s] [ 25%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/ConnectionGeometry.cpp.o[0m
+[0.900s] [ 25%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/Connection.cpp.o[0m
+[0.900s] [ 25%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/ConnectionGraphicsObject.cpp.o[0m
+[0.901s] [ 26%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/ConnectionState.cpp.o[0m
+[0.901s] [ 26%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/ConnectionStyle.cpp.o[0m
+[0.902s] [ 27%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/DataModelRegistry.cpp.o[0m
+[0.902s] [ 28%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/FlowScene.cpp.o[0m
+[0.903s] [ 29%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/FlowView.cpp.o[0m
+[0.903s] [ 29%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/FlowViewStyle.cpp.o[0m
+[0.925s] [ 30%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/Node.cpp.o[0m
+[1.768s] [ 31%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/NodeConnectionInteraction.cpp.o[0m
+[2.202s] [ 31%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/NodeDataModel.cpp.o[0m
+[2.216s] [ 32%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/NodeGeometry.cpp.o[0m
+[2.244s] [ 33%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/NodeGraphicsObject.cpp.o[0m
+[2.366s] [ 34%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/NodePainter.cpp.o[0m
+[2.758s] [ 34%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/NodeState.cpp.o[0m
+[2.850s] [ 35%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/NodeStyle.cpp.o[0m
+[2.967s] [ 36%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/Properties.cpp.o[0m
+[3.101s] [ 36%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/StyleCollection.cpp.o[0m
+[3.549s] [ 37%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/qrc_resources.cpp.o[0m
+[3.616s] [ 38%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_Compiler.cpp.o[0m
+[3.641s] [ 39%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_Connection.cpp.o[0m
+[3.714s] [ 39%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_ConnectionGeometry.cpp.o[0m
+[3.739s] [ 40%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_ConnectionGraphicsObject.cpp.o[0m
+[3.889s] [ 41%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_ConnectionState.cpp.o[0m
+[3.915s] [ 41%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_ConnectionStyle.cpp.o[0m
+[3.942s] [ 42%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_DataModelRegistry.cpp.o[0m
+[3.954s] [ 43%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_Export.cpp.o[0m
+[3.969s] [ 44%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_FlowScene.cpp.o[0m
+[3.975s] [ 44%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_FlowView.cpp.o[0m
+[3.981s] [ 45%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_FlowViewStyle.cpp.o[0m
+[4.006s] [ 46%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_Node.cpp.o[0m
+[4.078s] [01m[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/QtNodeEditor/src/NodeState.cpp:[m[K In member function ‘[01m[KQtNodes::NodeState::ConnectionPtrSet QtNodes::NodeState::connections(QtNodes::PortType, QtNodes::PortIndex) const[m[K’:
+[4.078s] [01m[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/QtNodeEditor/src/NodeState.cpp:51:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[KQtNodes::PortIndex[m[K’ {aka ‘[01m[Kint[m[K’} and ‘[01m[Kstd::vector<std::unordered_map<QUuid, QtNodes::Connection*> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[4.078s]    51 |   if( portIndex < 0 || [01;35m[KportIndex >= connections.size()[m[K )
+[4.078s]       |                        [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.103s] [ 46%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_NodeData.cpp.o[0m
+[4.128s] [ 47%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_NodeDataModel.cpp.o[0m
+[4.199s] [ 48%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_NodeGeometry.cpp.o[0m
+[4.224s] [ 49%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_NodeGraphicsObject.cpp.o[0m
+[4.424s] [ 49%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_NodePainterDelegate.cpp.o[0m
+[4.450s] [ 50%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_NodeState.cpp.o[0m
+[4.475s] [ 51%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_NodeStyle.cpp.o[0m
+[4.476s] [ 51%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_OperatingSystem.cpp.o[0m
+[4.500s] [ 53%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_PortType.cpp.o[0m
+[4.500s] [ 53%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_QStringStdHash.cpp.o[0m
+[4.525s] [ 54%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_QUuidStdHash.cpp.o[0m
+[4.529s] [ 54%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_Serializable.cpp.o[0m
+[4.551s] [ 55%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_Style.cpp.o[0m
+[4.556s] [ 56%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_TypeConverter.cpp.o[0m
+[4.578s] [ 56%] [32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_memory.cpp.o[0m
+[5.796s] [ 57%] [32m[1mLinking CXX static library ../lib/libQtNodeEditor.a[0m
+[5.842s] [ 57%] Built target QtNodeEditor
+[5.850s] [35m[1mScanning dependencies of target behavior_tree_editor_autogen[0m
+[5.857s] [ 58%] [34m[1mAutomatic MOC and UIC for target behavior_tree_editor[0m
+[6.139s] [ 58%] Built target behavior_tree_editor_autogen
+[6.148s] [ 59%] [34m[1mGenerating ui_about_dialog.h[0m
+[6.149s] [ 60%] [34m[1mGenerating ui_custom_node_dialog.h[0m
+[6.150s] [ 61%] [34m[1mGenerating ui_sidepanel_monitor.h[0m
+[6.150s] [ 61%] [34m[1mGenerating ui_mainwindow.h[0m
+[6.150s] [ 63%] [34m[1mGenerating ui_action_form.h[0m
+[6.150s] [ 63%] [34m[1mGenerating ui_sidepanel_editor.h[0m
+[6.151s] [ 63%] [34m[1mGenerating ui_sidepanel_replay.h[0m
+[6.151s] [ 64%] [34m[1mGenerating ui_startup_dialog.h[0m
+[6.163s] [35m[1mScanning dependencies of target behavior_tree_editor[0m
+[6.243s] [ 65%] [32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/editor_flowscene.cpp.o[0m
+[6.243s] [ 65%] [32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/behavior_tree_editor_autogen/mocs_compilation.cpp.o[0m
+[6.243s] [ 66%] [32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/models/BehaviorTreeNodeModel.cpp.o[0m
+[6.243s] [ 67%] [32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/models/SubtreeNodeModel.cpp.o[0m
+[6.244s] [ 67%] [32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/mainwindow.cpp.o[0m
+[6.245s] [ 68%] [32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/utils.cpp.o[0m
+[6.245s] [ 69%] [32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/bt_editor_base.cpp.o[0m
+[6.245s] [ 69%] [32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/graphic_container.cpp.o[0m
+[6.246s] [ 70%] [32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/startup_dialog.cpp.o[0m
+[6.248s] [ 71%] [32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_editor.cpp.o[0m
+[6.250s] [ 71%] [32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_replay.cpp.o[0m
+[6.252s] [ 72%] [32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/custom_node_dialog.cpp.o[0m
+[8.745s] [ 73%] [32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/XML_utilities.cpp.o[0m
+[9.317s] [ 74%] [32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_monitor.cpp.o[0m
+[11.253s] [01m[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.cpp:[m[K In member function ‘[01m[Kvoid SidepanelMonitor::on_timer()[m[K’:
+[11.253s] [01m[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.cpp:44:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool zmq::detail::socket_base::recv(zmq::message_t*, int)[m[K’ is deprecated: from 4.3.1, use recv taking a reference to message_t and recv_flags [[01;35m[K-Wdeprecated-declarations[m[K]
+[11.253s]    44 |         while(  _zmq_subscriber.recv(&msg[01;35m[K)[m[K )
+[11.253s]       |                                          [01;35m[K^[m[K
+[11.253s] In file included from [01m[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.h:5[m[K,
+[11.253s]                  from [01m[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.cpp:1[m[K:
+[11.253s] [01m[K/usr/include/zmq.hpp:1407:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.253s]  1407 |     bool [01;36m[Krecv[m[K(message_t *msg_, int flags_ = 0)
+[11.253s]       |          [01;36m[K^~~~[m[K
+[11.262s] [01m[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.cpp:[m[K In member function ‘[01m[Kbool SidepanelMonitor::getTreeFromServer()[m[K’:
+[11.263s] [01m[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.cpp:133:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool zmq::detail::socket_base::send(zmq::message_t&, int)[m[K’ is deprecated: from 4.3.1, use send taking message_t and send_flags [[01;35m[K-Wdeprecated-declarations[m[K]
+[11.263s]   133 |         zmq_client.send(request[01;35m[K)[m[K;
+[11.263s]       |                                [01;35m[K^[m[K
+[11.263s] In file included from [01m[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.h:5[m[K,
+[11.263s]                  from [01m[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.cpp:1[m[K:
+[11.263s] [01m[K/usr/include/zmq.hpp:1326:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.263s]  1326 |     bool [01;36m[Ksend[m[K(message_t &msg_,
+[11.263s]       |          [01;36m[K^~~~[m[K
+[11.263s] [01m[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.cpp:135:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool zmq::detail::socket_base::recv(zmq::message_t*, int)[m[K’ is deprecated: from 4.3.1, use recv taking a reference to message_t and recv_flags [[01;35m[K-Wdeprecated-declarations[m[K]
+[11.263s]   135 |         bool received = zmq_client.recv(&reply[01;35m[K)[m[K;
+[11.263s]       |                                               [01;35m[K^[m[K
+[11.263s] In file included from [01m[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.h:5[m[K,
+[11.263s]                  from [01m[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.cpp:1[m[K:
+[11.263s] [01m[K/usr/include/zmq.hpp:1407:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.263s]  1407 |     bool [01;36m[Krecv[m[K(message_t *msg_, int flags_ = 0)
+[11.263s]       |          [01;36m[K^~~~[m[K
+[12.408s] [ 74%] [32m[1mLinking CXX shared library libbehavior_tree_editor.so[0m
+[12.961s] [ 74%] Built target behavior_tree_editor
+[12.970s] [35m[1mScanning dependencies of target replay_test_autogen[0m
+[12.970s] [35m[1mScanning dependencies of target editor_test_autogen[0m
+[12.970s] [35m[1mScanning dependencies of target Groot_autogen[0m
+[12.978s] [ 76%] [34m[1mAutomatic MOC and UIC for target editor_test[0m
+[12.978s] [ 76%] [34m[1mAutomatic MOC and UIC for target Groot[0m
+[12.979s] [ 76%] [34m[1mAutomatic MOC and UIC for target replay_test[0m
+[12.999s] [ 76%] Built target Groot_autogen
+[13.009s] [ 77%] [34m[1mAutomatic RCC for bt_editor/resources/style.qrc[0m
+[13.010s] [ 78%] [34m[1mAutomatic RCC for test_data/test_files.qrc[0m
+[13.011s] [ 78%] [34m[1mAutomatic RCC for bt_editor/resources/icons.qrc[0m
+[13.051s] [35m[1mScanning dependencies of target Groot[0m
+[13.086s] [ 78%] [32mBuilding CXX object CMakeFiles/Groot.dir/Groot_autogen/mocs_compilation.cpp.o[0m
+[13.086s] [ 79%] [32mBuilding CXX object CMakeFiles/Groot.dir/Groot_autogen/OQ4J2MLGYJ/qrc_icons.cpp.o[0m
+[13.088s] [ 80%] [32mBuilding CXX object CMakeFiles/Groot.dir/bt_editor/main.cpp.o[0m
+[13.088s] [ 81%] [32mBuilding CXX object CMakeFiles/Groot.dir/Groot_autogen/OQ4J2MLGYJ/qrc_style.cpp.o[0m
+[13.089s] [ 81%] [32mBuilding CXX object CMakeFiles/Groot.dir/Groot_autogen/NYYW7IJ2JN/qrc_test_files.cpp.o[0m
+[13.321s] [ 81%] Built target replay_test_autogen
+[13.334s] [ 82%] [34m[1mAutomatic RCC for ../test_data/test_files.qrc[0m
+[13.337s] [ 83%] [34m[1mAutomatic RCC for ../QtNodeEditor/resources/resources.qrc[0m
+[13.340s] [ 83%] [34m[1mAutomatic RCC for ../bt_editor/resources/style.qrc[0m
+[13.344s] [ 84%] [34m[1mAutomatic RCC for ../bt_editor/resources/icons.qrc[0m
+[13.358s] [ 84%] Built target editor_test_autogen
+[13.370s] [ 84%] [34m[1mAutomatic RCC for ../bt_editor/resources/icons.qrc[0m
+[13.372s] [ 85%] [34m[1mAutomatic RCC for ../QtNodeEditor/resources/resources.qrc[0m
+[13.375s] [ 86%] [34m[1mAutomatic RCC for ../bt_editor/resources/style.qrc[0m
+[13.378s] [ 87%] [34m[1mAutomatic RCC for ../test_data/test_files.qrc[0m
+[13.407s] [35m[1mScanning dependencies of target replay_test[0m
+[13.436s] [35m[1mScanning dependencies of target editor_test[0m
+[13.475s] [ 88%] [32mBuilding CXX object test/CMakeFiles/replay_test.dir/replay_test_autogen/mocs_compilation.cpp.o[0m
+[13.475s] [ 89%] [32mBuilding CXX object test/CMakeFiles/replay_test.dir/replay_test_autogen/EB4OVBCXLB/qrc_resources.cpp.o[0m
+[13.475s] [ 90%] [32mBuilding CXX object test/CMakeFiles/replay_test.dir/replay_test.cpp.o[0m
+[13.476s] [ 90%] [32mBuilding CXX object test/CMakeFiles/replay_test.dir/groot_test_base.cpp.o[0m
+[13.476s] [ 90%] [32mBuilding CXX object test/CMakeFiles/replay_test.dir/replay_test_autogen/K3L5NHU5SO/qrc_style.cpp.o[0m
+[13.476s] [ 91%] [32mBuilding CXX object test/CMakeFiles/replay_test.dir/replay_test_autogen/K3L5NHU5SO/qrc_icons.cpp.o[0m
+[13.478s] [ 92%] [32mBuilding CXX object test/CMakeFiles/replay_test.dir/replay_test_autogen/4L4FNCFPKD/qrc_test_files.cpp.o[0m
+[13.508s] [ 93%] [32mBuilding CXX object test/CMakeFiles/editor_test.dir/editor_test_autogen/mocs_compilation.cpp.o[0m
+[13.508s] [ 93%] [32mBuilding CXX object test/CMakeFiles/editor_test.dir/editor_test.cpp.o[0m
+[13.523s] [ 94%] [32mBuilding CXX object test/CMakeFiles/editor_test.dir/groot_test_base.cpp.o[0m
+[13.572s] [ 95%] [32mBuilding CXX object test/CMakeFiles/editor_test.dir/editor_test_autogen/EB4OVBCXLB/qrc_resources.cpp.o[0m
+[13.587s] [ 95%] [32mBuilding CXX object test/CMakeFiles/editor_test.dir/editor_test_autogen/K3L5NHU5SO/qrc_icons.cpp.o[0m
+[13.597s] [ 96%] [32mBuilding CXX object test/CMakeFiles/editor_test.dir/editor_test_autogen/K3L5NHU5SO/qrc_style.cpp.o[0m
+[13.722s] [ 97%] [32mBuilding CXX object test/CMakeFiles/editor_test.dir/editor_test_autogen/4L4FNCFPKD/qrc_test_files.cpp.o[0m
+[16.287s] [ 98%] [32m[1mLinking CXX executable Groot[0m
+[16.677s] [ 98%] Built target Groot
+[17.681s] [ 99%] [32m[1mLinking CXX executable replay_test[0m
+[17.717s] [100%] [32m[1mLinking CXX executable editor_test[0m
+[18.082s] [100%] Built target replay_test
+[18.134s] [100%] Built target editor_test
+[18.145s] Invoked command in '/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/build/groot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/build/groot -- -j12 -l12
+[18.197s] Invoking command in '/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/build/groot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/build/groot
+[18.203s] -- Install configuration: ""
+[18.204s] -- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/install/groot/lib/libbehavior_tree_editor.so
+[18.206s] -- Set runtime path of "/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/install/groot/lib/libbehavior_tree_editor.so" to ""
+[18.206s] -- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/install/groot/lib/groot/Groot
+[18.207s] -- Set runtime path of "/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/install/groot/lib/groot/Groot" to ""
+[18.207s] -- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/install/groot/share/groot/environment/library_path.sh
+[18.207s] -- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/install/groot/share/groot/environment/library_path.dsv
+[18.207s] -- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/install/groot/share/ament_index/resource_index/package_run_dependencies/groot
+[18.208s] -- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/install/groot/share/ament_index/resource_index/parent_prefix_path/groot
+[18.208s] -- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/install/groot/share/groot/environment/ament_prefix_path.sh
+[18.208s] -- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/install/groot/share/groot/environment/ament_prefix_path.dsv
+[18.208s] -- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/install/groot/share/groot/environment/path.sh
+[18.208s] -- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/install/groot/share/groot/environment/path.dsv
+[18.208s] -- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/install/groot/share/groot/local_setup.bash
+[18.208s] -- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/install/groot/share/groot/local_setup.sh
+[18.208s] -- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/install/groot/share/groot/local_setup.zsh
+[18.208s] -- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/install/groot/share/groot/local_setup.dsv
+[18.208s] -- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/install/groot/share/groot/package.dsv
+[18.208s] -- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/install/groot/share/ament_index/resource_index/packages/groot
+[18.208s] -- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/install/groot/share/groot/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.209s] -- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/install/groot/share/groot/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.209s] -- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/install/groot/share/groot/cmake/ament_cmake_export_libraries-extras.cmake
+[18.209s] -- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/install/groot/share/groot/cmake/grootConfig.cmake
+[18.209s] -- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/install/groot/share/groot/cmake/grootConfig-version.cmake
+[18.209s] -- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/install/groot/share/groot/package.xml
+[18.211s] Invoked command in '/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/build/groot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/build/groot

@@ -1,0 +1,30 @@
+[01m[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/QtNodeEditor/src/NodeState.cpp:[m[K In member function ‘[01m[KQtNodes::NodeState::ConnectionPtrSet QtNodes::NodeState::connections(QtNodes::PortType, QtNodes::PortIndex) const[m[K’:
+[01m[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/QtNodeEditor/src/NodeState.cpp:51:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[KQtNodes::PortIndex[m[K’ {aka ‘[01m[Kint[m[K’} and ‘[01m[Kstd::vector<std::unordered_map<QUuid, QtNodes::Connection*> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   51 |   if( portIndex < 0 || [01;35m[KportIndex >= connections.size()[m[K )
+      |                        [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.cpp:[m[K In member function ‘[01m[Kvoid SidepanelMonitor::on_timer()[m[K’:
+[01m[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.cpp:44:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool zmq::detail::socket_base::recv(zmq::message_t*, int)[m[K’ is deprecated: from 4.3.1, use recv taking a reference to message_t and recv_flags [[01;35m[K-Wdeprecated-declarations[m[K]
+   44 |         while(  _zmq_subscriber.recv(&msg[01;35m[K)[m[K )
+      |                                          [01;35m[K^[m[K
+In file included from [01m[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.h:5[m[K,
+                 from [01m[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.cpp:1[m[K:
+[01m[K/usr/include/zmq.hpp:1407:10:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1407 |     bool [01;36m[Krecv[m[K(message_t *msg_, int flags_ = 0)
+      |          [01;36m[K^~~~[m[K
+[01m[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.cpp:[m[K In member function ‘[01m[Kbool SidepanelMonitor::getTreeFromServer()[m[K’:
+[01m[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.cpp:133:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool zmq::detail::socket_base::send(zmq::message_t&, int)[m[K’ is deprecated: from 4.3.1, use send taking message_t and send_flags [[01;35m[K-Wdeprecated-declarations[m[K]
+  133 |         zmq_client.send(request[01;35m[K)[m[K;
+      |                                [01;35m[K^[m[K
+In file included from [01m[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.h:5[m[K,
+                 from [01m[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.cpp:1[m[K:
+[01m[K/usr/include/zmq.hpp:1326:10:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1326 |     bool [01;36m[Ksend[m[K(message_t &msg_,
+      |          [01;36m[K^~~~[m[K
+[01m[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.cpp:135:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool zmq::detail::socket_base::recv(zmq::message_t*, int)[m[K’ is deprecated: from 4.3.1, use recv taking a reference to message_t and recv_flags [[01;35m[K-Wdeprecated-declarations[m[K]
+  135 |         bool received = zmq_client.recv(&reply[01;35m[K)[m[K;
+      |                                               [01;35m[K^[m[K
+In file included from [01m[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.h:5[m[K,
+                 from [01m[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.cpp:1[m[K:
+[01m[K/usr/include/zmq.hpp:1407:10:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1407 |     bool [01;36m[Krecv[m[K(message_t *msg_, int flags_ = 0)
+      |          [01;36m[K^~~~[m[K

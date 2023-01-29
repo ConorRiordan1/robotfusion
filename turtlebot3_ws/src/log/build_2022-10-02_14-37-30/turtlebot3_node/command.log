@@ -1,0 +1,6 @@
+Invoking command in '/home/user1/turtlebot3_ws/src/build/turtlebot3_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/user1/turtlebot3_ws/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/user1/turtlebot3_ws/src/install/turtlebot3_node
+Invoked command in '/home/user1/turtlebot3_ws/src/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/user1/turtlebot3_ws/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/user1/turtlebot3_ws/src/install/turtlebot3_node
+Invoking command in '/home/user1/turtlebot3_ws/src/build/turtlebot3_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/user1/turtlebot3_ws/src/build/turtlebot3_node -- -j12 -l12
+Invoked command in '/home/user1/turtlebot3_ws/src/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/user1/turtlebot3_ws/src/build/turtlebot3_node -- -j12 -l12
+Invoking command in '/home/user1/turtlebot3_ws/src/build/turtlebot3_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/user1/turtlebot3_ws/src/build/turtlebot3_node
+Invoked command in '/home/user1/turtlebot3_ws/src/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/user1/turtlebot3_ws/src/build/turtlebot3_node

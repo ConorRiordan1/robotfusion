@@ -1,0 +1,437 @@
+[0.000000] (-) TimerEvent: {}
+[0.001224] (groot) JobQueued: {'identifier': 'groot', 'dependencies': OrderedDict()}
+[0.001254] (groot) JobStarted: {'identifier': 'groot'}
+[0.010326] (groot) JobProgress: {'identifier': 'groot', 'progress': 'cmake'}
+[0.010401] (groot) Command: {'cmd': ['/usr/bin/cmake', '/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot', '-DCMAKE_INSTALL_PREFIX=/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/install/groot'], 'cwd': '/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/build/groot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user1'), ('SSH_AGENT_PID', '1806'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/user1'), ('OLDPWD', '/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1631'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'user1'), ('JOURNAL_STREAM', '9:47087'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user1'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/user1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/wpnbddlros412:@/tmp/.ICE-unix/1848,unix/wpnbddlros412:/tmp/.ICE-unix/1848'), ('INVOCATION_ID', 'a506fab449a341c39b8bb42b4efdbc68'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/52d02984_1877_4274_a761_10a8434183b3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/build/groot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.100113] (-) TimerEvent: {}
+[0.186252] (groot) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.200198] (-) TimerEvent: {}
+[0.300565] (-) TimerEvent: {}
+[0.348014] (groot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.353938] (groot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.400665] (-) TimerEvent: {}
+[0.404156] (groot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.405350] (groot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.459572] (groot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.470867] (groot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.471312] (groot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.473990] (groot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.500791] (-) TimerEvent: {}
+[0.537242] (groot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.538302] (groot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.598336] (groot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.600863] (-) TimerEvent: {}
+[0.610070] (groot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.610651] (groot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.659741] (groot) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.659960] (groot) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.700976] (-) TimerEvent: {}
+[0.801210] (-) TimerEvent: {}
+[0.855856] (groot) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)\n'}
+[0.860188] (groot) StdoutLine: {'line': b'-- Found behaviortree_cpp_v3: 3.6.1 (/opt/ros/foxy/share/behaviortree_cpp_v3/cmake)\n'}
+[0.861587] (groot) StdoutLine: {'line': b'-- ------------------------------------------------\n'}
+[0.861710] (groot) StdoutLine: {'line': b'-- BehaviourTreeEditor is being built using AMENT.\n'}
+[0.861807] (groot) StdoutLine: {'line': b'-- ------------------------------------------------\n'}
+[0.877114] (groot) StdoutLine: {'line': b'-- Found ZMQ: /usr/lib/x86_64-linux-gnu/libzmq.so  \n'}
+[0.877254] (groot) StdoutLine: {'line': b'-- ZeroMQ found.\n'}
+[0.901283] (-) TimerEvent: {}
+[0.940089] (groot) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.001450] (-) TimerEvent: {}
+[1.092084] (groot) StdoutLine: {'line': b'-- Generating done\n'}
+[1.093655] (groot) StdoutLine: {'line': b'-- Build files have been written to: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/build/groot\n'}
+[1.098007] (groot) CommandEnded: {'returncode': 0}
+[1.098538] (groot) JobProgress: {'identifier': 'groot', 'progress': 'build'}
+[1.100065] (groot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/build/groot', '--', '-j12', '-l12'], 'cwd': '/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/build/groot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user1'), ('SSH_AGENT_PID', '1806'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/user1'), ('OLDPWD', '/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1631'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'user1'), ('JOURNAL_STREAM', '9:47087'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user1'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/user1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/wpnbddlros412:@/tmp/.ICE-unix/1848,unix/wpnbddlros412:/tmp/.ICE-unix/1848'), ('INVOCATION_ID', 'a506fab449a341c39b8bb42b4efdbc68'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/52d02984_1877_4274_a761_10a8434183b3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/build/groot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.101498] (-) TimerEvent: {}
+[1.128175] (groot) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target QtNodeEditor_autogen\x1b[0m\n'}
+[1.135487] (groot) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target QtNodeEditor\x1b[0m\n'}
+[1.154856] (groot) StdoutLine: {'line': b'[  1%] Built target QtNodeEditor_autogen\n'}
+[1.165024] (groot) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating qrc_resources.cpp\x1b[0m\n'}
+[1.165711] (groot) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating include/nodes/internal/moc_Compiler.cpp\x1b[0m\n'}
+[1.165929] (groot) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating include/nodes/internal/moc_memory.cpp\x1b[0m\n'}
+[1.166048] (groot) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating include/nodes/internal/moc_Connection.cpp\x1b[0m\n'}
+[1.166208] (groot) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating include/nodes/internal/moc_ConnectionGeometry.cpp\x1b[0m\n'}
+[1.166491] (groot) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating include/nodes/internal/moc_ConnectionGraphicsObject.cpp\x1b[0m\n'}
+[1.166758] (groot) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating include/nodes/internal/moc_ConnectionState.cpp\x1b[0m\n'}
+[1.166932] (groot) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating include/nodes/internal/moc_ConnectionStyle.cpp\x1b[0m\n'}
+[1.167044] (groot) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating include/nodes/internal/moc_DataModelRegistry.cpp\x1b[0m\n'}
+[1.167186] (groot) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating include/nodes/internal/moc_Export.cpp\x1b[0m\n'}
+[1.167403] (groot) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating include/nodes/internal/moc_FlowScene.cpp\x1b[0m\n'}
+[1.169325] (groot) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating include/nodes/internal/moc_FlowView.cpp\x1b[0m\n'}
+[1.177900] (groot) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating include/nodes/internal/moc_FlowViewStyle.cpp\x1b[0m\n'}
+[1.178145] (groot) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating include/nodes/internal/moc_NodeData.cpp\x1b[0m\n'}
+[1.178319] (groot) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating include/nodes/internal/moc_Node.cpp\x1b[0m\n'}
+[1.178472] (groot) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating include/nodes/internal/moc_NodeDataModel.cpp\x1b[0m\n'}
+[1.201611] (-) TimerEvent: {}
+[1.202184] (groot) StdoutLine: {'line': b'[ 13%] \x1b[34m\x1b[1mGenerating include/nodes/internal/moc_NodeGeometry.cpp\x1b[0m\n'}
+[1.206454] (groot) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating include/nodes/internal/moc_NodeGraphicsObject.cpp\x1b[0m\n'}
+[1.207009] (groot) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating include/nodes/internal/moc_NodePainterDelegate.cpp\x1b[0m\n'}
+[1.208024] (groot) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating include/nodes/internal/moc_NodeState.cpp\x1b[0m\n'}
+[1.211976] (groot) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating include/nodes/internal/moc_NodeStyle.cpp\x1b[0m\n'}
+[1.229025] (groot) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating include/nodes/internal/moc_OperatingSystem.cpp\x1b[0m\n'}
+[1.235548] (groot) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating include/nodes/internal/moc_PortType.cpp\x1b[0m\n'}
+[1.238879] (groot) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating include/nodes/internal/moc_QStringStdHash.cpp\x1b[0m\n'}
+[1.243498] (groot) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating include/nodes/internal/moc_QUuidStdHash.cpp\x1b[0m\n'}
+[1.243760] (groot) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating include/nodes/internal/moc_Serializable.cpp\x1b[0m\n'}
+[1.244322] (groot) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating include/nodes/internal/moc_Style.cpp\x1b[0m\n'}
+[1.244873] (groot) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating include/nodes/internal/moc_TypeConverter.cpp\x1b[0m\n'}
+[1.275088] (groot) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target QtNodeEditor\x1b[0m\n'}
+[1.301705] (-) TimerEvent: {}
+[1.401920] (-) TimerEvent: {}
+[1.414504] (groot) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/QtNodeEditor_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[1.418577] (groot) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/ConnectionBlurEffect.cpp.o\x1b[0m\n'}
+[1.419788] (groot) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/ConnectionPainter.cpp.o\x1b[0m\n'}
+[1.419985] (groot) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/Connection.cpp.o\x1b[0m\n'}
+[1.420243] (groot) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/ConnectionGeometry.cpp.o\x1b[0m\n'}
+[1.420453] (groot) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/ConnectionGraphicsObject.cpp.o\x1b[0m\n'}
+[1.421222] (groot) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/ConnectionState.cpp.o\x1b[0m\n'}
+[1.423835] (groot) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/ConnectionStyle.cpp.o\x1b[0m\n'}
+[1.424362] (groot) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/DataModelRegistry.cpp.o\x1b[0m\n'}
+[1.424505] (groot) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/FlowScene.cpp.o\x1b[0m\n'}
+[1.425328] (groot) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/FlowViewStyle.cpp.o\x1b[0m\n'}
+[1.426826] (groot) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/FlowView.cpp.o\x1b[0m\n'}
+[1.437593] (groot) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/Node.cpp.o\x1b[0m\n'}
+[1.502026] (-) TimerEvent: {}
+[1.602341] (-) TimerEvent: {}
+[1.702665] (-) TimerEvent: {}
+[1.802983] (-) TimerEvent: {}
+[1.903299] (-) TimerEvent: {}
+[2.003622] (-) TimerEvent: {}
+[2.103936] (-) TimerEvent: {}
+[2.204255] (-) TimerEvent: {}
+[2.298844] (groot) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/NodeConnectionInteraction.cpp.o\x1b[0m\n'}
+[2.304364] (-) TimerEvent: {}
+[2.404699] (-) TimerEvent: {}
+[2.505014] (-) TimerEvent: {}
+[2.605395] (-) TimerEvent: {}
+[2.705718] (-) TimerEvent: {}
+[2.740898] (groot) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/NodeDataModel.cpp.o\x1b[0m\n'}
+[2.763354] (groot) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/NodeGeometry.cpp.o\x1b[0m\n'}
+[2.778895] (groot) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/NodeGraphicsObject.cpp.o\x1b[0m\n'}
+[2.805828] (-) TimerEvent: {}
+[2.902278] (groot) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/NodePainter.cpp.o\x1b[0m\n'}
+[2.905928] (-) TimerEvent: {}
+[3.006236] (-) TimerEvent: {}
+[3.106557] (-) TimerEvent: {}
+[3.206885] (-) TimerEvent: {}
+[3.292771] (groot) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/NodeState.cpp.o\x1b[0m\n'}
+[3.306995] (-) TimerEvent: {}
+[3.394879] (groot) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/NodeStyle.cpp.o\x1b[0m\n'}
+[3.407104] (-) TimerEvent: {}
+[3.501763] (groot) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/Properties.cpp.o\x1b[0m\n'}
+[3.507209] (-) TimerEvent: {}
+[3.523286] (groot) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/src/StyleCollection.cpp.o\x1b[0m\n'}
+[3.607320] (-) TimerEvent: {}
+[3.707639] (-) TimerEvent: {}
+[3.807963] (-) TimerEvent: {}
+[3.908291] (-) TimerEvent: {}
+[4.008617] (-) TimerEvent: {}
+[4.092473] (groot) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/qrc_resources.cpp.o\x1b[0m\n'}
+[4.108731] (-) TimerEvent: {}
+[4.161924] (groot) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_Compiler.cpp.o\x1b[0m\n'}
+[4.187165] (groot) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_Connection.cpp.o\x1b[0m\n'}
+[4.208840] (-) TimerEvent: {}
+[4.259467] (groot) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_ConnectionGeometry.cpp.o\x1b[0m\n'}
+[4.268152] (groot) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_ConnectionGraphicsObject.cpp.o\x1b[0m\n'}
+[4.285678] (groot) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_ConnectionState.cpp.o\x1b[0m\n'}
+[4.308952] (-) TimerEvent: {}
+[4.311164] (groot) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_ConnectionStyle.cpp.o\x1b[0m\n'}
+[4.336323] (groot) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_DataModelRegistry.cpp.o\x1b[0m\n'}
+[4.361506] (groot) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_Export.cpp.o\x1b[0m\n'}
+[4.387000] (groot) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_FlowScene.cpp.o\x1b[0m\n'}
+[4.409065] (-) TimerEvent: {}
+[4.501548] (groot) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_FlowView.cpp.o\x1b[0m\n'}
+[4.509186] (-) TimerEvent: {}
+[4.534944] (groot) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_FlowViewStyle.cpp.o\x1b[0m\n'}
+[4.561189] (groot) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_Node.cpp.o\x1b[0m\n'}
+[4.596141] (groot) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_NodeData.cpp.o\x1b[0m\n'}
+[4.609246] (-) TimerEvent: {}
+[4.616725] (groot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/QtNodeEditor/src/NodeState.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[KQtNodes::NodeState::ConnectionPtrSet QtNodes::NodeState::connections(QtNodes::PortType, QtNodes::PortIndex) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.617036] (groot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/QtNodeEditor/src/NodeState.cpp:51:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[KQtNodes::PortIndex\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::unordered_map<QUuid, QtNodes::Connection*> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[4.617194] (groot) StderrLine: {'line': b'   51 |   if( portIndex < 0 || \x1b[01;35m\x1b[KportIndex >= connections.size()\x1b[m\x1b[K )\n'}
+[4.617311] (groot) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.621474] (groot) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_NodeDataModel.cpp.o\x1b[0m\n'}
+[4.709351] (-) TimerEvent: {}
+[4.750021] (groot) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_NodeGeometry.cpp.o\x1b[0m\n'}
+[4.774830] (groot) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_NodeGraphicsObject.cpp.o\x1b[0m\n'}
+[4.809452] (-) TimerEvent: {}
+[4.909770] (-) TimerEvent: {}
+[4.963781] (groot) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_NodePainterDelegate.cpp.o\x1b[0m\n'}
+[4.988819] (groot) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_NodeState.cpp.o\x1b[0m\n'}
+[5.009884] (-) TimerEvent: {}
+[5.013769] (groot) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_NodeStyle.cpp.o\x1b[0m\n'}
+[5.022339] (groot) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_OperatingSystem.cpp.o\x1b[0m\n'}
+[5.041372] (groot) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_PortType.cpp.o\x1b[0m\n'}
+[5.048979] (groot) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_QStringStdHash.cpp.o\x1b[0m\n'}
+[5.069409] (groot) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_QUuidStdHash.cpp.o\x1b[0m\n'}
+[5.077110] (groot) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_Serializable.cpp.o\x1b[0m\n'}
+[5.097608] (groot) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_Style.cpp.o\x1b[0m\n'}
+[5.104020] (groot) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_TypeConverter.cpp.o\x1b[0m\n'}
+[5.109992] (-) TimerEvent: {}
+[5.125408] (groot) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object QtNodeEditor/CMakeFiles/QtNodeEditor.dir/include/nodes/internal/moc_memory.cpp.o\x1b[0m\n'}
+[5.210093] (-) TimerEvent: {}
+[5.310444] (-) TimerEvent: {}
+[5.410769] (-) TimerEvent: {}
+[5.511107] (-) TimerEvent: {}
+[5.611421] (-) TimerEvent: {}
+[5.711741] (-) TimerEvent: {}
+[5.812041] (-) TimerEvent: {}
+[5.912346] (-) TimerEvent: {}
+[6.012637] (-) TimerEvent: {}
+[6.112936] (-) TimerEvent: {}
+[6.213241] (-) TimerEvent: {}
+[6.313559] (-) TimerEvent: {}
+[6.327057] (groot) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX static library ../lib/libQtNodeEditor.a\x1b[0m\n'}
+[6.374885] (groot) StdoutLine: {'line': b'[ 57%] Built target QtNodeEditor\n'}
+[6.382030] (groot) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target behavior_tree_editor_autogen\x1b[0m\n'}
+[6.389608] (groot) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target behavior_tree_editor\x1b[0m\n'}
+[6.413670] (-) TimerEvent: {}
+[6.513998] (-) TimerEvent: {}
+[6.614302] (-) TimerEvent: {}
+[6.656991] (groot) StdoutLine: {'line': b'[ 58%] Built target behavior_tree_editor_autogen\n'}
+[6.664773] (groot) StdoutLine: {'line': b'[ 59%] \x1b[34m\x1b[1mGenerating ui_about_dialog.h\x1b[0m\n'}
+[6.666504] (groot) StdoutLine: {'line': b'[ 59%] \x1b[34m\x1b[1mGenerating ui_sidepanel_replay.h\x1b[0m\n'}
+[6.666866] (groot) StdoutLine: {'line': b'[ 60%] \x1b[34m\x1b[1mGenerating ui_sidepanel_monitor.h\x1b[0m\n'}
+[6.667029] (groot) StdoutLine: {'line': b'[ 60%] \x1b[34m\x1b[1mGenerating ui_mainwindow.h\x1b[0m\n'}
+[6.667197] (groot) StdoutLine: {'line': b'[ 61%] \x1b[34m\x1b[1mGenerating ui_sidepanel_editor.h\x1b[0m\n'}
+[6.667539] (groot) StdoutLine: {'line': b'[ 62%] \x1b[34m\x1b[1mGenerating ui_action_form.h\x1b[0m\n'}
+[6.668044] (groot) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating ui_custom_node_dialog.h\x1b[0m\n'}
+[6.668169] (groot) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating ui_startup_dialog.h\x1b[0m\n'}
+[6.679636] (groot) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target behavior_tree_editor\x1b[0m\n'}
+[6.714399] (-) TimerEvent: {}
+[6.767087] (groot) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/models/SubtreeNodeModel.cpp.o\x1b[0m\n'}
+[6.767303] (groot) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/models/BehaviorTreeNodeModel.cpp.o\x1b[0m\n'}
+[6.767497] (groot) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/editor_flowscene.cpp.o\x1b[0m\n'}
+[6.768398] (groot) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/behavior_tree_editor_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[6.769768] (groot) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/mainwindow.cpp.o\x1b[0m\n'}
+[6.772241] (groot) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/utils.cpp.o\x1b[0m\n'}
+[6.776065] (groot) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/bt_editor_base.cpp.o\x1b[0m\n'}
+[6.776617] (groot) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/graphic_container.cpp.o\x1b[0m\n'}
+[6.776810] (groot) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/startup_dialog.cpp.o\x1b[0m\n'}
+[6.777399] (groot) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_editor.cpp.o\x1b[0m\n'}
+[6.778436] (groot) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_replay.cpp.o\x1b[0m\n'}
+[6.780359] (groot) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/custom_node_dialog.cpp.o\x1b[0m\n'}
+[6.814516] (-) TimerEvent: {}
+[6.914842] (-) TimerEvent: {}
+[7.015147] (-) TimerEvent: {}
+[7.115461] (-) TimerEvent: {}
+[7.215782] (-) TimerEvent: {}
+[7.316105] (-) TimerEvent: {}
+[7.416435] (-) TimerEvent: {}
+[7.516759] (-) TimerEvent: {}
+[7.617085] (-) TimerEvent: {}
+[7.717419] (-) TimerEvent: {}
+[7.817734] (-) TimerEvent: {}
+[7.918054] (-) TimerEvent: {}
+[8.018377] (-) TimerEvent: {}
+[8.118694] (-) TimerEvent: {}
+[8.219015] (-) TimerEvent: {}
+[8.319339] (-) TimerEvent: {}
+[8.419662] (-) TimerEvent: {}
+[8.519989] (-) TimerEvent: {}
+[8.620319] (-) TimerEvent: {}
+[8.720651] (-) TimerEvent: {}
+[8.820980] (-) TimerEvent: {}
+[8.921312] (-) TimerEvent: {}
+[9.021630] (-) TimerEvent: {}
+[9.121952] (-) TimerEvent: {}
+[9.222266] (-) TimerEvent: {}
+[9.311651] (groot) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/XML_utilities.cpp.o\x1b[0m\n'}
+[9.322375] (-) TimerEvent: {}
+[9.422715] (-) TimerEvent: {}
+[9.523047] (-) TimerEvent: {}
+[9.623358] (-) TimerEvent: {}
+[9.723679] (-) TimerEvent: {}
+[9.811174] (groot) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/behavior_tree_editor.dir/bt_editor/sidepanel_monitor.cpp.o\x1b[0m\n'}
+[9.823794] (-) TimerEvent: {}
+[9.924208] (-) TimerEvent: {}
+[10.024495] (-) TimerEvent: {}
+[10.124757] (-) TimerEvent: {}
+[10.225123] (-) TimerEvent: {}
+[10.325445] (-) TimerEvent: {}
+[10.425781] (-) TimerEvent: {}
+[10.526098] (-) TimerEvent: {}
+[10.626402] (-) TimerEvent: {}
+[10.726719] (-) TimerEvent: {}
+[10.827020] (-) TimerEvent: {}
+[10.927327] (-) TimerEvent: {}
+[11.027644] (-) TimerEvent: {}
+[11.127949] (-) TimerEvent: {}
+[11.228244] (-) TimerEvent: {}
+[11.328539] (-) TimerEvent: {}
+[11.428845] (-) TimerEvent: {}
+[11.529106] (-) TimerEvent: {}
+[11.629373] (-) TimerEvent: {}
+[11.693258] (groot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SidepanelMonitor::on_timer()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.693413] (groot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.cpp:44:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool zmq::detail::socket_base::recv(zmq::message_t*, int)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: from 4.3.1, use recv taking a reference to message_t and recv_flags [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[11.693486] (groot) StderrLine: {'line': b'   44 |         while(  _zmq_subscriber.recv(&msg\x1b[01;35m\x1b[K)\x1b[m\x1b[K )\n'}
+[11.693547] (groot) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.693605] (groot) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.h:5\x1b[m\x1b[K,\n'}
+[11.693662] (groot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.cpp:1\x1b[m\x1b[K:\n'}
+[11.693718] (groot) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/zmq.hpp:1407:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[11.693774] (groot) StderrLine: {'line': b' 1407 |     bool \x1b[01;36m\x1b[Krecv\x1b[m\x1b[K(message_t *msg_, int flags_ = 0)\n'}
+[11.693828] (groot) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[11.702194] (groot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool SidepanelMonitor::getTreeFromServer()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.702334] (groot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.cpp:133:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool zmq::detail::socket_base::send(zmq::message_t&, int)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: from 4.3.1, use send taking message_t and send_flags [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[11.702410] (groot) StderrLine: {'line': b'  133 |         zmq_client.send(request\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[11.702472] (groot) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.702530] (groot) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.h:5\x1b[m\x1b[K,\n'}
+[11.702588] (groot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.cpp:1\x1b[m\x1b[K:\n'}
+[11.702643] (groot) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/zmq.hpp:1326:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[11.702698] (groot) StderrLine: {'line': b' 1326 |     bool \x1b[01;36m\x1b[Ksend\x1b[m\x1b[K(message_t &msg_,\n'}
+[11.702753] (groot) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[11.702807] (groot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.cpp:135:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool zmq::detail::socket_base::recv(zmq::message_t*, int)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: from 4.3.1, use recv taking a reference to message_t and recv_flags [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[11.702865] (groot) StderrLine: {'line': b'  135 |         bool received = zmq_client.recv(&reply\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[11.702925] (groot) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.702980] (groot) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.h:5\x1b[m\x1b[K,\n'}
+[11.703036] (groot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/Groot/bt_editor/sidepanel_monitor.cpp:1\x1b[m\x1b[K:\n'}
+[11.703091] (groot) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/zmq.hpp:1407:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[11.703151] (groot) StderrLine: {'line': b' 1407 |     bool \x1b[01;36m\x1b[Krecv\x1b[m\x1b[K(message_t *msg_, int flags_ = 0)\n'}
+[11.703207] (groot) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[11.729501] (-) TimerEvent: {}
+[11.829763] (-) TimerEvent: {}
+[11.930000] (-) TimerEvent: {}
+[12.030300] (-) TimerEvent: {}
+[12.130571] (-) TimerEvent: {}
+[12.230849] (-) TimerEvent: {}
+[12.331131] (-) TimerEvent: {}
+[12.431394] (-) TimerEvent: {}
+[12.531656] (-) TimerEvent: {}
+[12.631909] (-) TimerEvent: {}
+[12.732165] (-) TimerEvent: {}
+[12.816433] (groot) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libbehavior_tree_editor.so\x1b[0m\n'}
+[12.832282] (-) TimerEvent: {}
+[12.932545] (-) TimerEvent: {}
+[13.032852] (-) TimerEvent: {}
+[13.133147] (-) TimerEvent: {}
+[13.233427] (-) TimerEvent: {}
+[13.316544] (groot) StdoutLine: {'line': b'[ 74%] Built target behavior_tree_editor\n'}
+[13.324485] (groot) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target Groot_autogen\x1b[0m\n'}
+[13.324631] (groot) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target replay_test_autogen\x1b[0m\n'}
+[13.324700] (groot) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target editor_test_autogen\x1b[0m\n'}
+[13.332457] (groot) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target editor_test\x1b[0m\n'}
+[13.332650] (groot) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target replay_test\x1b[0m\n'}
+[13.332757] (groot) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target Groot\x1b[0m\n'}
+[13.333493] (-) TimerEvent: {}
+[13.356259] (groot) StdoutLine: {'line': b'[ 76%] Built target Groot_autogen\n'}
+[13.367730] (groot) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mAutomatic RCC for bt_editor/resources/icons.qrc\x1b[0m\n'}
+[13.367936] (groot) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mAutomatic RCC for test_data/test_files.qrc\x1b[0m\n'}
+[13.370095] (groot) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mAutomatic RCC for bt_editor/resources/style.qrc\x1b[0m\n'}
+[13.407324] (groot) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target Groot\x1b[0m\n'}
+[13.433587] (-) TimerEvent: {}
+[13.442028] (groot) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/Groot.dir/Groot_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[13.444579] (groot) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/Groot.dir/bt_editor/main.cpp.o\x1b[0m\n'}
+[13.444900] (groot) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/Groot.dir/Groot_autogen/OQ4J2MLGYJ/qrc_icons.cpp.o\x1b[0m\n'}
+[13.445049] (groot) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/Groot.dir/Groot_autogen/OQ4J2MLGYJ/qrc_style.cpp.o\x1b[0m\n'}
+[13.449980] (groot) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/Groot.dir/Groot_autogen/NYYW7IJ2JN/qrc_test_files.cpp.o\x1b[0m\n'}
+[13.533720] (-) TimerEvent: {}
+[13.627501] (groot) StdoutLine: {'line': b'[ 81%] Built target replay_test_autogen\n'}
+[13.633848] (-) TimerEvent: {}
+[13.636205] (groot) StdoutLine: {'line': b'[ 83%] \x1b[34m\x1b[1mAutomatic RCC for ../test_data/test_files.qrc\x1b[0m\n'}
+[13.636412] (groot) StdoutLine: {'line': b'[ 83%] \x1b[34m\x1b[1mAutomatic RCC for ../QtNodeEditor/resources/resources.qrc\x1b[0m\n'}
+[13.638076] (groot) StdoutLine: {'line': b'[ 83%] \x1b[34m\x1b[1mAutomatic RCC for ../bt_editor/resources/style.qrc\x1b[0m\n'}
+[13.638905] (groot) StdoutLine: {'line': b'[ 84%] \x1b[34m\x1b[1mAutomatic RCC for ../bt_editor/resources/icons.qrc\x1b[0m\n'}
+[13.644882] (groot) StdoutLine: {'line': b'[ 84%] Built target editor_test_autogen\n'}
+[13.654864] (groot) StdoutLine: {'line': b'[ 85%] \x1b[34m\x1b[1mAutomatic RCC for ../bt_editor/resources/icons.qrc\x1b[0m\n'}
+[13.655023] (groot) StdoutLine: {'line': b'[ 85%] \x1b[34m\x1b[1mAutomatic RCC for ../QtNodeEditor/resources/resources.qrc\x1b[0m\n'}
+[13.655576] (groot) StdoutLine: {'line': b'[ 86%] \x1b[34m\x1b[1mAutomatic RCC for ../test_data/test_files.qrc\x1b[0m\n'}
+[13.658463] (groot) StdoutLine: {'line': b'[ 87%] \x1b[34m\x1b[1mAutomatic RCC for ../bt_editor/resources/style.qrc\x1b[0m\n'}
+[13.684229] (groot) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target replay_test\x1b[0m\n'}
+[13.696218] (groot) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target editor_test\x1b[0m\n'}
+[13.733955] (-) TimerEvent: {}
+[13.745376] (groot) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object test/CMakeFiles/replay_test.dir/replay_test_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[13.746679] (groot) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object test/CMakeFiles/replay_test.dir/replay_test.cpp.o\x1b[0m\n'}
+[13.746839] (groot) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object test/CMakeFiles/replay_test.dir/replay_test_autogen/EB4OVBCXLB/qrc_resources.cpp.o\x1b[0m\n'}
+[13.747333] (groot) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object test/CMakeFiles/replay_test.dir/groot_test_base.cpp.o\x1b[0m\n'}
+[13.749748] (groot) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object test/CMakeFiles/replay_test.dir/replay_test_autogen/K3L5NHU5SO/qrc_icons.cpp.o\x1b[0m\n'}
+[13.750168] (groot) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object test/CMakeFiles/replay_test.dir/replay_test_autogen/K3L5NHU5SO/qrc_style.cpp.o\x1b[0m\n'}
+[13.750964] (groot) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object test/CMakeFiles/replay_test.dir/replay_test_autogen/4L4FNCFPKD/qrc_test_files.cpp.o\x1b[0m\n'}
+[13.755602] (groot) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object test/CMakeFiles/editor_test.dir/editor_test_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[13.756196] (groot) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object test/CMakeFiles/editor_test.dir/editor_test.cpp.o\x1b[0m\n'}
+[13.756719] (groot) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object test/CMakeFiles/editor_test.dir/groot_test_base.cpp.o\x1b[0m\n'}
+[13.783416] (groot) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object test/CMakeFiles/editor_test.dir/editor_test_autogen/EB4OVBCXLB/qrc_resources.cpp.o\x1b[0m\n'}
+[13.815486] (groot) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object test/CMakeFiles/editor_test.dir/editor_test_autogen/K3L5NHU5SO/qrc_icons.cpp.o\x1b[0m\n'}
+[13.821778] (groot) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object test/CMakeFiles/editor_test.dir/editor_test_autogen/K3L5NHU5SO/qrc_style.cpp.o\x1b[0m\n'}
+[13.834056] (-) TimerEvent: {}
+[13.859137] (groot) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding CXX object test/CMakeFiles/editor_test.dir/editor_test_autogen/4L4FNCFPKD/qrc_test_files.cpp.o\x1b[0m\n'}
+[13.934158] (-) TimerEvent: {}
+[14.034467] (-) TimerEvent: {}
+[14.134816] (-) TimerEvent: {}
+[14.235115] (-) TimerEvent: {}
+[14.335407] (-) TimerEvent: {}
+[14.435754] (-) TimerEvent: {}
+[14.536123] (-) TimerEvent: {}
+[14.636405] (-) TimerEvent: {}
+[14.736678] (-) TimerEvent: {}
+[14.836937] (-) TimerEvent: {}
+[14.937243] (-) TimerEvent: {}
+[15.037557] (-) TimerEvent: {}
+[15.137874] (-) TimerEvent: {}
+[15.238193] (-) TimerEvent: {}
+[15.338510] (-) TimerEvent: {}
+[15.438829] (-) TimerEvent: {}
+[15.539151] (-) TimerEvent: {}
+[15.639482] (-) TimerEvent: {}
+[15.739812] (-) TimerEvent: {}
+[15.840144] (-) TimerEvent: {}
+[15.940476] (-) TimerEvent: {}
+[16.040809] (-) TimerEvent: {}
+[16.141151] (-) TimerEvent: {}
+[16.241486] (-) TimerEvent: {}
+[16.341813] (-) TimerEvent: {}
+[16.442135] (-) TimerEvent: {}
+[16.542456] (-) TimerEvent: {}
+[16.642768] (-) TimerEvent: {}
+[16.743081] (-) TimerEvent: {}
+[16.843431] (-) TimerEvent: {}
+[16.943764] (-) TimerEvent: {}
+[17.044092] (-) TimerEvent: {}
+[17.070153] (groot) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable replay_test\x1b[0m\n'}
+[17.078793] (groot) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking CXX executable Groot\x1b[0m\n'}
+[17.144205] (-) TimerEvent: {}
+[17.244521] (-) TimerEvent: {}
+[17.344865] (-) TimerEvent: {}
+[17.445177] (-) TimerEvent: {}
+[17.448093] (groot) StdoutLine: {'line': b'[ 99%] Built target replay_test\n'}
+[17.451484] (groot) StdoutLine: {'line': b'[ 99%] Built target Groot\n'}
+[17.545268] (-) TimerEvent: {}
+[17.645540] (-) TimerEvent: {}
+[17.745798] (-) TimerEvent: {}
+[17.788454] (groot) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable editor_test\x1b[0m\n'}
+[17.845927] (-) TimerEvent: {}
+[17.946205] (-) TimerEvent: {}
+[18.046515] (-) TimerEvent: {}
+[18.146801] (-) TimerEvent: {}
+[18.150319] (groot) StdoutLine: {'line': b'[100%] Built target editor_test\n'}
+[18.160172] (groot) CommandEnded: {'returncode': 0}
+[18.202317] (groot) JobProgress: {'identifier': 'groot', 'progress': 'install'}
+[18.210862] (groot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/build/groot'], 'cwd': '/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/build/groot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user1'), ('SSH_AGENT_PID', '1806'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/user1'), ('OLDPWD', '/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1631'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'user1'), ('JOURNAL_STREAM', '9:47087'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user1'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/user1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/wpnbddlros412:@/tmp/.ICE-unix/1848,unix/wpnbddlros412:/tmp/.ICE-unix/1848'), ('INVOCATION_ID', 'a506fab449a341c39b8bb42b4efdbc68'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/52d02984_1877_4274_a761_10a8434183b3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/build/groot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[18.216930] (groot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.217179] (groot) StdoutLine: {'line': b'-- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/install/groot/lib/libbehavior_tree_editor.so\n'}
+[18.219728] (groot) StdoutLine: {'line': b'-- Set runtime path of "/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/install/groot/lib/libbehavior_tree_editor.so" to ""\n'}
+[18.219901] (groot) StdoutLine: {'line': b'-- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/install/groot/lib/groot/Groot\n'}
+[18.220431] (groot) StdoutLine: {'line': b'-- Set runtime path of "/home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/install/groot/lib/groot/Groot" to ""\n'}
+[18.220664] (groot) StdoutLine: {'line': b'-- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/install/groot/share/groot/environment/library_path.sh\n'}
+[18.220750] (groot) StdoutLine: {'line': b'-- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/install/groot/share/groot/environment/library_path.dsv\n'}
+[18.220844] (groot) StdoutLine: {'line': b'-- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/install/groot/share/ament_index/resource_index/package_run_dependencies/groot\n'}
+[18.220936] (groot) StdoutLine: {'line': b'-- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/install/groot/share/ament_index/resource_index/parent_prefix_path/groot\n'}
+[18.221020] (groot) StdoutLine: {'line': b'-- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/install/groot/share/groot/environment/ament_prefix_path.sh\n'}
+[18.221124] (groot) StdoutLine: {'line': b'-- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/install/groot/share/groot/environment/ament_prefix_path.dsv\n'}
+[18.221282] (groot) StdoutLine: {'line': b'-- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/install/groot/share/groot/environment/path.sh\n'}
+[18.221387] (groot) StdoutLine: {'line': b'-- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/install/groot/share/groot/environment/path.dsv\n'}
+[18.221494] (groot) StdoutLine: {'line': b'-- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/install/groot/share/groot/local_setup.bash\n'}
+[18.221601] (groot) StdoutLine: {'line': b'-- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/install/groot/share/groot/local_setup.sh\n'}
+[18.221704] (groot) StdoutLine: {'line': b'-- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/install/groot/share/groot/local_setup.zsh\n'}
+[18.221795] (groot) StdoutLine: {'line': b'-- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/install/groot/share/groot/local_setup.dsv\n'}
+[18.221879] (groot) StdoutLine: {'line': b'-- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/install/groot/share/groot/package.dsv\n'}
+[18.222018] (groot) StdoutLine: {'line': b'-- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/install/groot/share/ament_index/resource_index/packages/groot\n'}
+[18.222147] (groot) StdoutLine: {'line': b'-- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/install/groot/share/groot/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[18.222288] (groot) StdoutLine: {'line': b'-- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/install/groot/share/groot/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[18.222365] (groot) StdoutLine: {'line': b'-- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/install/groot/share/groot/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[18.222475] (groot) StdoutLine: {'line': b'-- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/install/groot/share/groot/cmake/grootConfig.cmake\n'}
+[18.222564] (groot) StdoutLine: {'line': b'-- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/install/groot/share/groot/cmake/grootConfig-version.cmake\n'}
+[18.222662] (groot) StdoutLine: {'line': b'-- Installing: /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/install/groot/share/groot/package.xml\n'}
+[18.224192] (groot) CommandEnded: {'returncode': 0}
+[18.246930] (-) TimerEvent: {}
+[18.288180] (groot) JobEnded: {'identifier': 'groot', 'rc': 0}
+[18.288902] (-) EventReactorShutdown: {}

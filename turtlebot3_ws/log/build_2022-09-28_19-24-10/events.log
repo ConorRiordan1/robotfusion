@@ -1,0 +1,24 @@
+[0.000000] (-) TimerEvent: {}
+[0.000447] (turtlebot3_cartographer) JobQueued: {'identifier': 'turtlebot3_cartographer', 'dependencies': OrderedDict()}
+[0.000662] (turtlebot3_description) JobQueued: {'identifier': 'turtlebot3_description', 'dependencies': OrderedDict()}
+[0.000704] (turtlebot3_example) JobQueued: {'identifier': 'turtlebot3_example', 'dependencies': OrderedDict()}
+[0.000734] (turtlebot3_fake_node) JobQueued: {'identifier': 'turtlebot3_fake_node', 'dependencies': OrderedDict()}
+[0.000754] (turtlebot3_navigation2) JobQueued: {'identifier': 'turtlebot3_navigation2', 'dependencies': OrderedDict()}
+[0.000787] (turtlebot3_node) JobQueued: {'identifier': 'turtlebot3_node', 'dependencies': OrderedDict()}
+[0.000804] (turtlebot3_teleop) JobQueued: {'identifier': 'turtlebot3_teleop', 'dependencies': OrderedDict()}
+[0.000820] (turtlebot3_bringup) JobQueued: {'identifier': 'turtlebot3_bringup', 'dependencies': OrderedDict([('turtlebot3_description', '/home/user1/turtlebot3_ws/install/turtlebot3_description'), ('turtlebot3_node', '/home/user1/turtlebot3_ws/install/turtlebot3_node')])}
+[0.000840] (turtlebot3_gazebo) JobQueued: {'identifier': 'turtlebot3_gazebo', 'dependencies': OrderedDict([('turtlebot3_description', '/home/user1/turtlebot3_ws/install/turtlebot3_description')])}
+[0.000858] (turtlebot3) JobQueued: {'identifier': 'turtlebot3', 'dependencies': OrderedDict([('turtlebot3_cartographer', '/home/user1/turtlebot3_ws/install/turtlebot3_cartographer'), ('turtlebot3_description', '/home/user1/turtlebot3_ws/install/turtlebot3_description'), ('turtlebot3_example', '/home/user1/turtlebot3_ws/install/turtlebot3_example'), ('turtlebot3_navigation2', '/home/user1/turtlebot3_ws/install/turtlebot3_navigation2'), ('turtlebot3_node', '/home/user1/turtlebot3_ws/install/turtlebot3_node'), ('turtlebot3_teleop', '/home/user1/turtlebot3_ws/install/turtlebot3_teleop'), ('turtlebot3_bringup', '/home/user1/turtlebot3_ws/install/turtlebot3_bringup')])}
+[0.000880] (turtlebot3_simulations) JobQueued: {'identifier': 'turtlebot3_simulations', 'dependencies': OrderedDict([('turtlebot3_description', '/home/user1/turtlebot3_ws/install/turtlebot3_description'), ('turtlebot3_fake_node', '/home/user1/turtlebot3_ws/install/turtlebot3_fake_node'), ('turtlebot3_gazebo', '/home/user1/turtlebot3_ws/install/turtlebot3_gazebo')])}
+[0.008342] (turtlebot3_cartographer) JobSkipped: {'identifier': 'turtlebot3_cartographer'}
+[0.008375] (turtlebot3_description) JobSkipped: {'identifier': 'turtlebot3_description'}
+[0.008395] (turtlebot3_example) JobSkipped: {'identifier': 'turtlebot3_example'}
+[0.008411] (turtlebot3_fake_node) JobSkipped: {'identifier': 'turtlebot3_fake_node'}
+[0.008427] (turtlebot3_navigation2) JobSkipped: {'identifier': 'turtlebot3_navigation2'}
+[0.008441] (turtlebot3_node) JobSkipped: {'identifier': 'turtlebot3_node'}
+[0.008456] (turtlebot3_teleop) JobSkipped: {'identifier': 'turtlebot3_teleop'}
+[0.008470] (turtlebot3_bringup) JobSkipped: {'identifier': 'turtlebot3_bringup'}
+[0.008484] (turtlebot3_gazebo) JobSkipped: {'identifier': 'turtlebot3_gazebo'}
+[0.008498] (turtlebot3) JobSkipped: {'identifier': 'turtlebot3'}
+[0.008512] (turtlebot3_simulations) JobSkipped: {'identifier': 'turtlebot3_simulations'}
+[0.008527] (-) EventReactorShutdown: {}

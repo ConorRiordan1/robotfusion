@@ -1,0 +1,81 @@
+[0.006s] Invoking command in '/home/user1/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user1/turtlebot3_ws/install/turtlebot3_fake_node
+[0.047s] -- The C compiler identification is GNU 9.4.0
+[0.090s] -- The CXX compiler identification is GNU 9.4.0
+[0.093s] -- Check for working C compiler: /usr/bin/cc
+[0.149s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.150s] -- Detecting C compiler ABI info
+[0.212s] -- Detecting C compiler ABI info - done
+[0.225s] -- Detecting C compile features
+[0.225s] -- Detecting C compile features - done
+[0.228s] -- Check for working CXX compiler: /usr/bin/c++
+[0.292s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.293s] -- Detecting CXX compiler ABI info
+[0.358s] -- Detecting CXX compiler ABI info - done
+[0.370s] -- Detecting CXX compile features
+[0.370s] -- Detecting CXX compile features - done
+[0.372s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.393s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.393s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.549s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.568s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.593s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.599s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.652s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.669s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.729s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.809s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.877s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.915s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.916s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.917s] -- Looking for pthread.h
+[0.970s] -- Looking for pthread.h - found
+[0.970s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.026s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.026s] -- Looking for pthread_create in pthreads
+[1.075s] -- Looking for pthread_create in pthreads - not found
+[1.075s] -- Looking for pthread_create in pthread
+[1.137s] -- Looking for pthread_create in pthread - found
+[1.138s] -- Found Threads: TRUE  
+[1.268s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.334s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[1.344s] -- Found tf2_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_msgs/cmake)
+[1.517s] -- Found turtlebot3_msgs: 2.2.1 (/opt/ros/foxy/share/turtlebot3_msgs/cmake)
+[1.658s] -- Configuring done
+[1.668s] -- Generating done
+[1.669s] -- Build files have been written to: /home/user1/turtlebot3_ws/build/turtlebot3_fake_node
+[1.676s] Invoked command in '/home/user1/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/user1/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user1/turtlebot3_ws/install/turtlebot3_fake_node
+[1.677s] Invoking command in '/home/user1/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/user1/turtlebot3_ws/build/turtlebot3_fake_node -- -j12 -l12
+[1.706s] [35m[1mScanning dependencies of target turtlebot3_fake_node[0m
+[1.735s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[7.247s] [100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[7.484s] [100%] Built target turtlebot3_fake_node
+[7.492s] Invoked command in '/home/user1/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/user1/turtlebot3_ws/build/turtlebot3_fake_node -- -j12 -l12
+[7.510s] Invoking command in '/home/user1/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/user1/turtlebot3_ws/build/turtlebot3_fake_node
+[7.516s] -- Install configuration: ""
+[7.517s] -- Execute custom install script
+[7.517s] -- Symlinking: /home/user1/turtlebot3_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[7.524s] -- Symlinking: /home/user1/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[7.531s] -- Symlinking: /home/user1/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[7.537s] -- Symlinking: /home/user1/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[7.544s] -- Symlinking: /home/user1/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[7.550s] -- Symlinking: /home/user1/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[7.556s] -- Symlinking: /home/user1/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/rviz/model.rviz
+[7.563s] -- Symlinking: /home/user1/turtlebot3_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[7.569s] -- Symlinking: /home/user1/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[7.575s] -- Symlinking: /home/user1/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[7.582s] -- Symlinking: /home/user1/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[7.588s] -- Symlinking: /home/user1/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+[7.595s] -- Symlinking: /home/user1/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[7.601s] -- Symlinking: /home/user1/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv
+[7.607s] -- Symlinking: /home/user1/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[7.614s] -- Symlinking: /home/user1/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[7.620s] -- Symlinking: /home/user1/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[7.626s] -- Symlinking: /home/user1/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv
+[7.633s] -- Symlinking: /home/user1/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv
+[7.639s] -- Symlinking: /home/user1/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[7.645s] -- Symlinking: /home/user1/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.652s] -- Symlinking: /home/user1/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.658s] -- Symlinking: /home/user1/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[7.664s] -- Symlinking: /home/user1/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[7.670s] -- Symlinking: /home/user1/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml
+[7.680s] Invoked command in '/home/user1/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/user1/turtlebot3_ws/build/turtlebot3_fake_node
