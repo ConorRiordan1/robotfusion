@@ -1,2 +1,2 @@
 # robotfusion
-this is robot fusion
+Fusion of LiDAR and Computer Vision for Autonomous Navigation in Gazebo
