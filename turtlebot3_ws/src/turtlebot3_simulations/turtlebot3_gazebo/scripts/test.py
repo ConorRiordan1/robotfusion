@@ -52,12 +52,14 @@ class MinimalSubscriber(Node):
 
     def listener_callback(self, msg):
         range_data_raw=msg.ranges
+        #print(range_data_raw,"\n")
         range_data_1=list(range_data_raw[315:360])
         range_data_2=list(range_data_raw[0:45])
         for element in range_data_2:
             range_data_1.append(element)
         global range_data
         range_data=range_data_1
+        print(len(range_data))
         #print(range_data) ### RANGE DATA PRINTED AND READY TO GO #####
         for element in range_data:
             if element < 100: # no infinity
@@ -68,7 +70,7 @@ class MinimalSubscriber(Node):
                 #print(float(range_data.index(element))-45,'+',element) #prints angle of detection and distance
                 global lidar_location
                 lidar_location = (float(range_data.index(element)),element)
-                print(range_data)
+                #print(range_data)
                 print(lidar_location)
 
 
@@ -99,7 +101,10 @@ class MinimalSubscriber(Node):
         if name not in objectnames:
             objectnames.append(name)
             global lidarindex
-            lidarindex = abs(int((average_yolo_position -330) * (27/330)))+45
+            lidarindex = (-int((average_yolo_position -320) * (27/320)))+45
+            print(lidarindex, "lidarindex")
+            if lidarindex <45:
+                lidarindex = lidarindex -3
             final_camera_data.append(lidarindex)
             masterlist.append(final_camera_data)
         print(masterlist) 
