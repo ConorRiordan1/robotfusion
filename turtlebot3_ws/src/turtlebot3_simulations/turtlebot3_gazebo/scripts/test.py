@@ -1,10 +1,12 @@
 import rclpy
+import math
 from rclpy.node import Node
 
 from std_msgs.msg import String
 from sensor_msgs.msg import LaserScan
 from nav_msgs.msg import Odometry
 global masterlist
+
 masterlist =[] #master list holds yolo data for each new detection. does not work for repeats.
 global objectnames
 objectnames = [] # temporary holding list
@@ -20,6 +22,8 @@ class MinimalSubscriber(Node):
             self.listener_callback,
             10)
           # prevent unused variable warning
+        self.publisher_ = self.create_publisher(String, 'topic', 10)
+     
 
         self.subscription2 = self.create_subscription(
             String,
@@ -40,6 +44,9 @@ class MinimalSubscriber(Node):
     
         self.object_creator()
 
+
+
+
         
 
 
@@ -48,6 +55,14 @@ class MinimalSubscriber(Node):
 
     def object_creator(self):
             print('hi')
+
+
+
+    def timer_callback(self):
+        print("timer_callback")
+        msg = String()
+        msg.data = "Hello World"
+        self.publisher_.publish(msg)
 
 
     def listener_callback(self, msg):
@@ -60,18 +75,25 @@ class MinimalSubscriber(Node):
         global range_data
         range_data=range_data_1
         print(len(range_data))
-        #print(range_data) ### RANGE DATA PRINTED AND READY TO GO #####
+        #print(range_data) ### RANGE DATA PRINTED AND READY TO GO ####
         for element in range_data:
             if element < 100: # no infinity
                 for list1 in masterlist:
                     if len(list1)<4:
                         distanceofobject = float(range_data[lidarindex-1])
                         list1.append(distanceofobject)
+                        angle = float((float(lidarindex)-45) * 3.14/180)
+                        x_new = float(xcoordinate) + float(distanceofobject)* math.cos(angle)
+                        y_new = float(ycoordinate) + float(distanceofobject) * math.sin(angle)
+                        list1.append(str(x_new))
+                        list1.append(str(y_new))
+                        self.timer_callback()
                 #print(float(range_data.index(element))-45,'+',element) #prints angle of detection and distance
                 global lidar_location
                 lidar_location = (float(range_data.index(element)),element)
                 #print(range_data)
-                print(lidar_location)
+                ##print(lidar_location)
+        
 
 
 
@@ -107,11 +129,13 @@ class MinimalSubscriber(Node):
                 lidarindex = lidarindex -3
             final_camera_data.append(lidarindex)
             masterlist.append(final_camera_data)
-        print(masterlist) 
+        ##print(masterlist) 
     
 
     def listener_callback3(self,msg):
         global current_pos
+        global xcoordinate
+        global ycoordinate
         current_pos = str(msg.pose.pose)
         relevence = 0
         xcoordinate = ''
@@ -126,8 +150,10 @@ class MinimalSubscriber(Node):
                 xcoordinate = xcoordinate + current_pos[element]
         #print(current_pos) ### CURRENT POSE NEEDS TO BE PARSED - long string. See if possible to just get raw x and y####
         xcoordinate = xcoordinate[1:]
-        #print(xcoordinate,'xcoordiante AT PRESENT')
-        #print(ycoordinate,'ycoordinate at present' ) # I have x and Y cooridnate
+        ##print(xcoordinate,'xcoordiante AT PRESENT')
+        ##print(ycoordinate,'ycoordinate at present' ) # I have x and Y cooridnate
+
+        
 
     
 
