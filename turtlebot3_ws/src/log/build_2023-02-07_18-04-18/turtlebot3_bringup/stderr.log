@@ -1,0 +1,1 @@
+CMake Error: The current CMakeCache.txt directory /home/user1/robotfusion/turtlebot3_ws/src/build/turtlebot3_bringup/CMakeCache.txt is different than the directory /home/user1/turtlebot3_ws/src/build/turtlebot3_bringup where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt

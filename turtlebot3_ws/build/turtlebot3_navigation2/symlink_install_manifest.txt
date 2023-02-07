@@ -1,4 +1,6 @@
 /home/user1/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+/home/user1/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/Old_maps/turtlebot3_world.pgm
+/home/user1/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/Old_maps/turtlebot3_world.yaml
 /home/user1/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.pgm
 /home/user1/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.yaml
 /home/user1/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml

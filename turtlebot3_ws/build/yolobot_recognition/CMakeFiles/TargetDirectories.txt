@@ -1,0 +1,9 @@
+/home/user1/robotfusion/turtlebot3_ws/build/yolobot_recognition/CMakeFiles/install/strip.dir
+/home/user1/robotfusion/turtlebot3_ws/build/yolobot_recognition/CMakeFiles/install/local.dir
+/home/user1/robotfusion/turtlebot3_ws/build/yolobot_recognition/CMakeFiles/install.dir
+/home/user1/robotfusion/turtlebot3_ws/build/yolobot_recognition/CMakeFiles/list_install_components.dir
+/home/user1/robotfusion/turtlebot3_ws/build/yolobot_recognition/CMakeFiles/rebuild_cache.dir
+/home/user1/robotfusion/turtlebot3_ws/build/yolobot_recognition/CMakeFiles/edit_cache.dir
+/home/user1/robotfusion/turtlebot3_ws/build/yolobot_recognition/CMakeFiles/test.dir
+/home/user1/robotfusion/turtlebot3_ws/build/yolobot_recognition/CMakeFiles/yolobot_recognition_uninstall.dir
+/home/user1/robotfusion/turtlebot3_ws/build/yolobot_recognition/CMakeFiles/uninstall.dir

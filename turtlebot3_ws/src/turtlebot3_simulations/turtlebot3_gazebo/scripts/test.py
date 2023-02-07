@@ -1,10 +1,11 @@
 import rclpy
 import math
 from rclpy.node import Node
-
+import time
 from std_msgs.msg import String
 from sensor_msgs.msg import LaserScan
 from nav_msgs.msg import Odometry
+from geometry_msgs.msg import PoseStamped
 global masterlist
 
 masterlist =[] #master list holds yolo data for each new detection. does not work for repeats.
@@ -22,7 +23,7 @@ class MinimalSubscriber(Node):
             self.listener_callback,
             10)
           # prevent unused variable warning
-        self.publisher_ = self.create_publisher(String, 'topic', 10)
+        self.publisher_ = self.create_publisher(PoseStamped, '/goal_pose', 10)
      
 
         self.subscription2 = self.create_subscription(
@@ -59,10 +60,17 @@ class MinimalSubscriber(Node):
 
 
     def timer_callback(self):
-        print("timer_callback")
-        msg = String()
-        msg.data = "Hello World"
-        self.publisher_.publish(msg)
+        goal_pose = PoseStamped()
+        goal_pose.header.frame_id = 'map'
+        goal_pose.header.stamp = self.get_clock().now().to_msg()
+        goal_pose.pose.position.x = float(masterlist[0][4])+1#There is a -1 offset on gazebo vs nav2, therefore I add one, it works.
+        goal_pose.pose.position.y = float(masterlist[0][5])
+        goal_pose.pose.position.z = 0.0
+        goal_pose.pose.orientation.w = 1.0
+        print(goal_pose)
+        print(masterlist)
+        time.sleep(5)
+        self.publisher_.publish(goal_pose)
 
 
     def listener_callback(self, msg):
@@ -74,7 +82,7 @@ class MinimalSubscriber(Node):
             range_data_1.append(element)
         global range_data
         range_data=range_data_1
-        print(len(range_data))
+        #print(len(range_data))
         #print(range_data) ### RANGE DATA PRINTED AND READY TO GO ####
         for element in range_data:
             if element < 100: # no infinity
@@ -92,7 +100,7 @@ class MinimalSubscriber(Node):
                 global lidar_location
                 lidar_location = (float(range_data.index(element)),element)
                 #print(range_data)
-                ##print(lidar_location)
+                #print(lidar_location)
         
 
 
@@ -119,17 +127,17 @@ class MinimalSubscriber(Node):
         #print(name)#name. This works with frisbee and fire hydarn
         global final_camera_data
         final_camera_data = [name,average_yolo_position]
-        #print(final_camera_data)
+        print(final_camera_data)
         if name not in objectnames:
             objectnames.append(name)
             global lidarindex
             lidarindex = (-int((average_yolo_position -320) * (27/320)))+45
-            print(lidarindex, "lidarindex")
+            #print(lidarindex, "lidarindex")
             if lidarindex <45:
                 lidarindex = lidarindex -3
             final_camera_data.append(lidarindex)
             masterlist.append(final_camera_data)
-        ##print(masterlist) 
+        #print(masterlist) 
     
 
     def listener_callback3(self,msg):

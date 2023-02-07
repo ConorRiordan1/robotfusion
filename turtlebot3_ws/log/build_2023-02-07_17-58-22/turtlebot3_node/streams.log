@@ -1,0 +1,29 @@
+[0.075s] Invoking command in '/home/user1/robotfusion/turtlebot3_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/user1/robotfusion/turtlebot3_ws/build/turtlebot3_node -- -j12 -l12
+[0.523s] [ 85%] Built target turtlebot3_node_lib
+[0.524s] [100%] Built target turtlebot3_ros
+[0.525s] CMake Error: The current CMakeCache.txt directory /home/user1/robotfusion/turtlebot3_ws/build/turtlebot3_node/CMakeCache.txt is different than the directory /home/user1/turtlebot3_ws/build/turtlebot3_node where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.527s] Invoked command in '/home/user1/robotfusion/turtlebot3_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/user1/robotfusion/turtlebot3_ws/build/turtlebot3_node -- -j12 -l12
+[0.573s] Invoking command in '/home/user1/robotfusion/turtlebot3_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/user1/robotfusion/turtlebot3_ws/build/turtlebot3_node
+[0.581s] -- Install configuration: ""
+[0.583s] -- Execute custom install script
+[0.584s] -- Up-to-date symlink: /home/user1/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[0.584s] -- Up-to-date symlink: /home/user1/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[0.585s] -- Up-to-date symlink: /home/user1/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[0.586s] -- Up-to-date symlink: /home/user1/turtlebot3_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[0.587s] -- Up-to-date symlink: /home/user1/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[0.587s] -- Up-to-date symlink: /home/user1/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[0.588s] -- Up-to-date symlink: /home/user1/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[0.589s] -- Up-to-date symlink: /home/user1/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[0.589s] -- Up-to-date symlink: /home/user1/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[0.589s] -- Up-to-date symlink: /home/user1/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[0.590s] -- Up-to-date symlink: /home/user1/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[0.590s] -- Up-to-date symlink: /home/user1/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[0.591s] -- Up-to-date symlink: /home/user1/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[0.591s] -- Up-to-date symlink: /home/user1/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[0.591s] -- Symlinking: /home/user1/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[0.605s] -- Up-to-date symlink: /home/user1/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[0.605s] -- Up-to-date symlink: /home/user1/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.605s] -- Up-to-date symlink: /home/user1/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[0.605s] -- Up-to-date symlink: /home/user1/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[0.605s] -- Up-to-date symlink: /home/user1/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[0.662s] Invoked command in '/home/user1/robotfusion/turtlebot3_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/user1/robotfusion/turtlebot3_ws/build/turtlebot3_node

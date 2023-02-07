@@ -1,0 +1,15 @@
+/home/user1/robotfusion/turtlebot3_ws/install/yolobot_recognition/share/ament_index/resource_index/package_run_dependencies/yolobot_recognition
+/home/user1/robotfusion/turtlebot3_ws/install/yolobot_recognition/share/ament_index/resource_index/parent_prefix_path/yolobot_recognition
+/home/user1/robotfusion/turtlebot3_ws/install/yolobot_recognition/share/yolobot_recognition/environment/ament_prefix_path.sh
+/home/user1/robotfusion/turtlebot3_ws/install/yolobot_recognition/share/yolobot_recognition/environment/ament_prefix_path.dsv
+/home/user1/robotfusion/turtlebot3_ws/install/yolobot_recognition/share/yolobot_recognition/environment/path.sh
+/home/user1/robotfusion/turtlebot3_ws/install/yolobot_recognition/share/yolobot_recognition/environment/path.dsv
+/home/user1/robotfusion/turtlebot3_ws/install/yolobot_recognition/share/yolobot_recognition/local_setup.bash
+/home/user1/robotfusion/turtlebot3_ws/install/yolobot_recognition/share/yolobot_recognition/local_setup.sh
+/home/user1/robotfusion/turtlebot3_ws/install/yolobot_recognition/share/yolobot_recognition/local_setup.zsh
+/home/user1/robotfusion/turtlebot3_ws/install/yolobot_recognition/share/yolobot_recognition/local_setup.dsv
+/home/user1/robotfusion/turtlebot3_ws/install/yolobot_recognition/share/yolobot_recognition/package.dsv
+/home/user1/robotfusion/turtlebot3_ws/install/yolobot_recognition/share/ament_index/resource_index/packages/yolobot_recognition
+/home/user1/robotfusion/turtlebot3_ws/install/yolobot_recognition/share/yolobot_recognition/cmake/yolobot_recognitionConfig.cmake
+/home/user1/robotfusion/turtlebot3_ws/install/yolobot_recognition/share/yolobot_recognition/cmake/yolobot_recognitionConfig-version.cmake
+/home/user1/robotfusion/turtlebot3_ws/install/yolobot_recognition/share/yolobot_recognition/package.xml
