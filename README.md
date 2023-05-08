@@ -8,6 +8,7 @@ notes:
 - I found using opencv darknet to be the easiest method to apply computer vision. Ultralytics YOLOv5 is also good, but i struggled to implement on raspberry pi.
 - use Groot when dealing with behaviour trees. This can be difficult to set up.
 - I trained YOLO using google colab. you can also do if you have a GPU.
+- to visualize LiDAR in RVIZ, make sure laserscan is set to best_attempt
 
 Here are some sources to check out:
 - https://docs.ros.org/en/humble/index.html
