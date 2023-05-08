@@ -4,10 +4,10 @@ Fusion of LiDAR and Computer Vision for Autonomous Navigation in Gazebo
 notes:
 - everything within the "turtlebot3_ws" folder should be enough for simulation in gazebo. everything outside of the folder is mainly related to real world application, with the exception of the gazebo models I made myself.
 - ROS2 Foxy will not run on a raspberry pi 4 w/ GUI. Use Humble instead.
+- If you cannot get the camera to connect to the raspberry pi, it is likley an issue with the permissions on your ports
 - I found using opencv darknet to be the easiest method to apply computer vision. Ultralytics YOLOv5 is also good, but i struggled to implement on raspberry pi.
 - use Groot when dealing with behaviour trees. This can be difficult to set up.
 - I trained YOLO using google colab. you can also do if you have a GPU.
-- 
 
 Here are some sources to check out:
 - https://docs.ros.org/en/humble/index.html
