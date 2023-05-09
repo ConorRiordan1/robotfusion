@@ -31,3 +31,9 @@ Here are some sources to check out:
 - https://aws.amazon.com/robomaker/resources/train-a-robot-using-reinforcement-learning-project/ - amazon has some resorces on this topic
 
 
+areas I am interested in exploring in the future:
+- Combining everything into one behaviour tree and running the robot would only require running navigation2
+- Taking a machine learning approach
+- examining advisarial AI as applied to an ML approach
+- comparing a behavior tree approach to a ML approach
+
