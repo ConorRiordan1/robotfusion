@@ -9,6 +9,7 @@ notes:
 - use Groot when dealing with behaviour trees. This can be difficult to set up.
 - I trained YOLO using google colab. you can also do if you have a GPU.
 - to visualize LiDAR in RVIZ, make sure laserscan is set to best_attempt
+- Use openCV to capture images with a raspberry pi camera on an ubuntu operating system. Other methods often require raspberry pi OS
 
 Here are some sources to check out:
 - https://docs.ros.org/en/humble/index.html
